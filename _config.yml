@@ -3,7 +3,7 @@ title: jaketbouma
 description: 'Big Data Scientist'
 # url: 'http://127.0.0.1:4000'
 url: 'https://jaketbouma.github.io/blog'
-baseurl: '/'
+baseurl: '/blog/'
 # google_analytics: 'UA-XXXXXX-X'
 disqus_shortname: 'jaketbouma.github.io'
 
