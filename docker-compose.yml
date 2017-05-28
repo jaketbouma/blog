@@ -1,0 +1,8 @@
+jekyll-blog:
+    image: jekyll/jekyll:pages
+    command: jekyll serve --watch --incremental
+    ports:
+        - 127.0.0.1:4000:4000
+    volumes:
+        - .:/srv/jekyll
+        - blog-usr-lib-gems:/usr/lib/ruby/gems
